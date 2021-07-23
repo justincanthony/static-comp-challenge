@@ -3,6 +3,7 @@
 <!--  PROJECT_README_TEMPLATE -->
 
 <!-- Frequently Used Links -->
+https://shields.io/
 <!--
 
 My GitHub Profile
@@ -178,22 +179,9 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[project-spec-url]: https://frontend.turing.edu/projects/fitlit.html
-[turing-shield]: https://img.shields.io/badge/Project-Spec-orange
-[contributors-shield]: https://img.shields.io/badge/Contributors-2-orange
+[project-spec-url]: https://frontend.turing.edu/projects/module-1/m1-static-comp
+[turing-shield]: https://img.shields.io/badge/Project%20-Spec-blue
+[contributors-shield]: https://https://img.shields.io/badge/Contributors-1-blue
 [contributors-url]: https://github.com/williamphelps13/FitLit/graphs/contributors
-[issues-shield]: https://img.shields.io/badge/Issues-5-orange
-[issues-url]: https://github.com/williamphelps13/FitLit/issues
-
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+[issues-shield]: https://img.shields.io/badge/Issues-0-blue
+[issues-url]: https://github.com/justincanthony/static-comp-challenge/issues
