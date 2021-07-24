@@ -178,6 +178,6 @@ Contributions are what make the open source community such an amazing place to b
 [project-spec-url]: https://frontend.turing.edu/projects/module-1/m1-static-comp
 [turing-shield]: https://img.shields.io/badge/Project%20-Spec-blue
 [contributors-shield]: https://img.shields.io/badge/Contributors-1-blue
-[contributors-url]: https://https://github.com/justincanthony/static-comp-challenge/graphs/contributors
+[contributors-url]: https://github.com/justincanthony/static-comp-challenge/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/Issues-0-blue
 [issues-url]: https://github.com/justincanthony/static-comp-challenge/issues
