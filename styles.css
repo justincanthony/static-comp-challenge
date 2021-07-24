@@ -1,0 +1,62 @@
+* {
+
+}
+
+
+body {
+  display: flex;
+  
+
+
+}
+
+nav {
+  display: flex;
+  border: solid black 3px;
+  background-color: grey;
+
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  border: solid black 3px;
+}
+
+.menu-bar {
+  width: 80%;
+  height:;
+  border: solid red 3px;
+}
+
+.admin-menu {
+  width: 20%;
+  border: solid purple 10px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    display: grid;
+  }
+
+  nav {
+  }
+
+  main {
+
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    display: grid;
+  }
+
+  nav {
+  }
+
+  main {
+
+  }
+}
+
