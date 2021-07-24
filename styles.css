@@ -1,15 +1,15 @@
 * {
 }
 
-h2 {
-  font-size: 2rem;
-  padding: 0 0 0 1rem;
-  margin: 2rem 0 1rem 0;
+h2,
+h5  {
+  margin: 10px 10px 0px 0px;
   font-weight: 75;
+  text-align: center;
 }
 
-h3,
-h5 {
+
+h3 {
   margin: 0;
   font-weight: 75;
 }
@@ -26,7 +26,7 @@ body {
 
 header {
   display: flex;
-  height: 150px;
+  height: 125px;
   /* background-color:black; */
 }
 
@@ -97,10 +97,16 @@ main {
 
 .card-header {
   border: black solid 3px;
+  height: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* background-size: contain; */
+  background-image: url("/Users/justin/Turing/mod2/projects/static-comp-challenge/assets/D8EFC4FD-E753-4003-AA08-CFE5B7962A63_1_105_c.jpeg");
+  background-size: 330px ;
+}
+
+.photo {
+  background-size: contain;
 }
 
 .card-header-text {
@@ -108,13 +114,16 @@ main {
 }
 
 .card-main {
+  display: flex;
   background-color: ghostWhite;
   height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .card-div {
   border: black solid 2px;
-  height: 25%;
+  margin-left: 10px;
 }
 
 
