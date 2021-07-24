@@ -36,8 +36,7 @@ Websites
 "URL-Hosting-Site" , REPO-NAME , issues-url, project-spec-url, contributors-url, contributors-shield
 
 
---https://github.com/justincanthony--
---
+https://github.com/justincanthony -->
 
 
 <!-- PROJECT Details -->
@@ -47,14 +46,14 @@ Websites
   <p align="center">
    A brief statement about the project
     <br />
-    <a href=https://github.com/justincanthony/REPO-NAME><strong>Explore the docs »</strong></a>
+    <a href=https://github.com/justincanthony/static-comp-challenge><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://"URL-Hosting-Site">View Demo</a>
     ·
-    <a href="https://github.com/justincanthony/REPO-NAME/issues">Report Bug</a>
+    <a href="https://github.com/justincanthony/static-comp-challenge/issues">Report Bug</a>
     ·
-    <a href="https://github.com/justincanthony/REPO-NAME/issues">Request Feature</a>
+    <a href="https://github.com/justincanthony/static-comp-challenge/issues">Request Feature</a>
   </p>
 </p>
 
@@ -102,14 +101,11 @@ POSSIBLE CODE BLOCK
 
 
 ### Built With
-
-* [Javascript](https://www.javascript.com/)
+      
 * [HTML](https://html.com/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [eslint](https://eslint.org/)
-* [node](https://nodejs.org/en/)
-* [WebPack](https://webpack.js.org/)
-* [Express](https://expressjs.com/)
+
 
 
 
@@ -128,7 +124,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/USER-REPO/repo_name.git
+   git clone https://github.com/justincanthony/static-comp-challenge.git
    ```
 2. Install NPM packages
    ```sh
@@ -158,7 +154,7 @@ more code here!
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/justincanthony/REPO-NAME/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/justincanthony/static-comp-challenge/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -181,7 +177,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [project-spec-url]: https://frontend.turing.edu/projects/module-1/m1-static-comp
 [turing-shield]: https://img.shields.io/badge/Project%20-Spec-blue
-[contributors-shield]: https://https://img.shields.io/badge/Contributors-1-blue
-[contributors-url]: https://github.com/williamphelps13/FitLit/graphs/contributors
+[contributors-shield]: https://img.shields.io/badge/Contributors-1-blue
+[contributors-url]: https://https://github.com/justincanthony/static-comp-challenge/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/Issues-0-blue
 [issues-url]: https://github.com/justincanthony/static-comp-challenge/issues
