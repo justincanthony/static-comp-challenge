@@ -125,9 +125,11 @@ To get a local copy up and running follow these simple steps.
    ```
 
 
+## USAGE                       
+<!--DESCRIBE WHAT THE USAGE EXPERIENCE IS LIKE/BUILT ON -->
+Below is an example of the comp and the recreation using some artistic control. We were able to change colors, fonts, and icons.
+                          
 <!-- Screen Size EXAMPLES -->
-
-DESCRIBE WHAT THE USAGE EXPERIENCE IS LIKE/BUILT ON
 
 Original Spec              |  Recreation
 :----------------------------:|:-------------------------:
