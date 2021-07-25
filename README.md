@@ -42,7 +42,7 @@ https://github.com/justincanthony -->
   <h1 align="center">Static Comp Challenge</h1>
 
   <p align="center">
-   A brief statement about the project
+  Recreate a Static Comp
     <br />
     <a href=https://github.com/justincanthony/static-comp-challenge><strong>Explore the docs »</strong></a>
     <br />
