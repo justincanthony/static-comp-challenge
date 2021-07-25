@@ -179,5 +179,5 @@ Contributions are what make the open source community such an amazing place to b
 [turing-shield]: https://img.shields.io/badge/Project%20-Spec-blue
 [contributors-shield]: https://img.shields.io/badge/Contributors-1-blue
 [contributors-url]: https://github.com/justincanthony/static-comp-challenge/graphs/contributors
-[issues-shield]: https://img.shields.io/badge/Issues-0-blue
+[issues-shield]: https://img.shields.io/badge/Issues-1-blue
 [issues-url]: https://github.com/justincanthony/static-comp-challenge/issues
