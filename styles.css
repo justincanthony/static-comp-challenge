@@ -2,6 +2,16 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* BODY & <h> Tag Styling */
+
+body {
+  background-color: rgb(133,216,223)
+  font-family: Arial;
+  background: var(#222222);
+  margin: 0;
+  color: var(#222222);
+}
+
 h1 {
   font-weight: 75;
   margin-left: 1%;
@@ -13,33 +23,19 @@ h2 {
   text-align: left;
 }
 
-h5,
-h3 {
+h3,
+h5 {
   margin: 0;
   font-weight: 75;
-}
-
-h5[id] {
-  margin-top: 10px;
-  margin-right: 10px;
 }
 
 h3[id] {
   color: rgb(66,133,216)
 }
 
-.logo {
-  font-family: 'Faster One', cursive;
-  font-size: 30pt;
-  margin: 0;
-}
-
-body {
-  background-color: rgb(133,216,223)
-  font-family: Arial;
-  background: var(#222222);
-  margin: 0;
-  color: var(#222222);
+h5[id] {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 /* header section */
@@ -74,11 +70,9 @@ li[id] {
   color: #def5f9;
 }
 
-.menu-bar {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  width: 80%;
+nav .icon {
+  margin-top: 6px;
+  margin-right: 8px;
 }
 
 .admin-menu {
@@ -92,22 +86,31 @@ li[id] {
 display: flex;
 align-items: center;
 margin-left: 60px;
-
 }
 
-.user-login-menu {
-  margin-left: 0px;
-  margin-right: 5px;
+.drop-icon {
+  height: 15px;
+  width: 15px;
+  margin-right:25px;
+  margin-left: 15px;
 }
 
 .icon {
-height: 20px;
-width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
-nav .icon {
-  margin-top: 6px;
-  margin-right: 8px;
+.logo {
+  font-family: 'Faster One', cursive;
+  font-size: 30pt;
+  margin: 0;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 80%;
 }
 
 .user-icon{
@@ -117,12 +120,9 @@ nav .icon {
   margin-right: 8px;
 }
 
-
-.drop-icon {
-  height: 15px;
-  width: 15px;
-  margin-right:25px;
-  margin-left: 15px;
+.user-login-menu {
+  margin-left: 0px;
+  margin-right: 5px;
 }
 
 /* Main Section */
@@ -138,6 +138,11 @@ main {
 
 /* Cards */
 
+.arrow-icon {
+  height: 75px;
+  width: 75px;
+}
+
 .card {
   display: flex;
   width: 330px;
@@ -147,39 +152,7 @@ main {
   margin-left: 1%;
   flex-direction: column;
   box-shadow:  5px 5px 10px #b3b3b3,
-             -5px -5px 10px #ffffff;
-}
-
-.card-header {
-  height: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-image: url("/Users/justin/Turing/mod2/projects/static-comp-challenge/assets/D8EFC4FD-E753-4003-AA08-CFE5B7962A63_1_105_c.jpeg");
-  background-size: 330px ;
-}
-
-.photo {
-  background-size: contain;
-}
-
-.arrow-icon {
-  height: 75px;
-  width: 75px;
-}
-
-.card-header-text {
-  color: white;
-  text-align: center;
-}
-
-.card-main {
-  display: flex;
-  background-color: ghostWhite;
-  height: 100%;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: #def5f9;
+  -5px -5px 10px #ffffff;
 }
 
 .card-div {
@@ -198,6 +171,39 @@ main {
   hyphens:auto;
   background: lightgray;
 }
+
+.card-header {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url("/Users/justin/Turing/mod2/projects/static-comp-challenge/assets/D8EFC4FD-E753-4003-AA08-CFE5B7962A63_1_105_c.jpeg");
+  background-size: 330px ;
+}
+
+.card-header-text {
+  color: white;
+  text-align: center;
+}
+
+.card-main {
+  display: flex;
+  background-color: ghostWhite;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #def5f9;
+}
+
+.photo {
+  background-size: contain;
+}
+
+/***************************************************************
+
+NEED TO CREATE MEDIA QUERIES FOR DIFFERENT SCREEN SIZES
+
+***************************************************************/
 
 /* 
 @media screen and (max-width: 480px) {
@@ -220,8 +226,6 @@ main {
 
   }
 } */
-
-
 
 /* @media screen and (min-width: 800px) {
   body {
