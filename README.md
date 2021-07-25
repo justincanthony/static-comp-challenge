@@ -4,8 +4,8 @@
 
 <!-- Frequently Used Links -->
 https://shields.io/
-<!--
 
+<!--
 My GitHub Profile
 * [My GitHub Profile](github.com/justincanthony)
 
@@ -32,10 +32,8 @@ Websites
 [![Project][turing-shield]][project-spec-url] 
 [![Issues][issues-shield]][issues-url] 
 
-<!-- CHANGE THESE VARIABLES TO YOUR OWN PROJECT SPECIFIC PAGE -->
+<!-- CHANGE THESE VARIABLES TO YOUR OWN PROJECT SPECIFIC PAGE 
 "URL-Hosting-Site" , REPO-NAME , issues-url, project-spec-url, contributors-url, contributors-shield
-
-
 https://github.com/justincanthony -->
 
 
@@ -86,12 +84,17 @@ https://github.com/justincanthony -->
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- Describe what the over all scope and learninging goal of the project is, and what set-up the challenge was framed in-->
 
---INSERT PROJECT DESCRIPTION--
---What the over all scope and learninging goal of the project is, and what set-up the challenge was framed in
+This project was intended to introduce students to the concept of creating a comp from scratch using HTML and CSS.
 
-
+Site must be responsive
+Push your final work to github pages
+Site must work across Firefox, Safari, Chrome
+Developer must use normalize or reset file in CSS
+You should definitely experiment with flex-box and/or grid
+Ask your mentor for a review on one of your pull requests
+Ask your accountabilibuddy for a review on one of your pull requests and give them one in return
 
 ```
 POSSIBLE CODE BLOCK
@@ -140,10 +143,10 @@ To get a local copy up and running follow these simple steps.
 
 DESCRIBE WHAT THE USAGE EXPERIENCE IS LIKE/BUILT ON
 
-tablet view                   |  mobile view
-:-------------------------:|:-------------------------:
+Original Spec              |  Recreation
+:----------------------------:|:-------------------------:
+![Original](https://user-images.githubusercontent.com/82064981/126916095-4d8e2061-cc58-4c3e-8e62-b3cd00caceb3.png)|![Screen Shot 2021-07-25 at 5 05 28 PM](https://user-images.githubusercontent.com/82064981/126916200-a6aaf012-4920-484d-811e-d0f856b077c9.png)
 
-MORE USAGE
 
 
 Example:Code
