@@ -84,30 +84,21 @@ https://github.com/justincanthony -->
 
 
 <!-- ABOUT THE PROJECT -->
+
+### About the Project
 <!-- Describe what the over all scope and learninging goal of the project is, and what set-up the challenge was framed in-->
 
 This project was intended to introduce students to the concept of creating a comp from scratch using HTML and CSS.
 
-Site must be responsive
-Push your final work to github pages
-Site must work across Firefox, Safari, Chrome
-Developer must use normalize or reset file in CSS
-You should definitely experiment with flex-box and/or grid
-Ask your mentor for a review on one of your pull requests
-Ask your accountabilibuddy for a review on one of your pull requests and give them one in return
-
-```
-POSSIBLE CODE BLOCK
-  ```
-  
-<img width="1412" alt="M" src=">
-
+- Site must be responsive
+- Site must work across Firefox, Safari, Chrome
+- Developer must use normalize or reset file in CSS
 
 ### Built With
       
 * [HTML](https://html.com/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [eslint](https://eslint.org/)
+* [Normalize](https://necolas.github.io/normalize.css/)
 
 
 
@@ -118,9 +109,8 @@ POSSIBLE CODE BLOCK
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-* Node
+* Text Editor
 * NPM
-
 
 
 ### Installation
@@ -131,12 +121,8 @@ To get a local copy up and running follow these simple steps.
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   npm install normailze.css
    ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
 
 
 <!-- Screen Size EXAMPLES -->
@@ -148,11 +134,6 @@ Original Spec              |  Recreation
 ![Original](https://user-images.githubusercontent.com/82064981/126916095-4d8e2061-cc58-4c3e-8e62-b3cd00caceb3.png)|![Screen Shot 2021-07-25 at 5 05 28 PM](https://user-images.githubusercontent.com/82064981/126916200-a6aaf012-4920-484d-811e-d0f856b077c9.png)
 
 
-
-Example:Code
-```
-more code here!
-```
 
 <!-- ROADMAP -->
 ## Roadmap
