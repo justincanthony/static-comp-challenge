@@ -1,113 +1,229 @@
 * {
-
+  font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+  font-weight: 75;
+  margin-left: 1%;
+}
+
+h2 {
+  margin: 0px 10px 0px 0px;
+  font-weight: 75;
+  text-align: left;
+}
+
+h5,
+h3 {
+  margin: 0;
+  font-weight: 75;
+}
+
+h5[id] {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+h3[id] {
+  color: rgb(66,133,216)
+}
+
+.logo {
+  font-family: 'Faster One', cursive;
+  font-size: 30pt;
+  margin: 0;
+}
 
 body {
-  /* display: flex; */
-  background-color: lightgrey;
-
-
+  background-color: rgb(133,216,223)
+  font-family: Arial;
+  background: var(#222222);
+  margin: 0;
+  color: var(#222222);
 }
 
 /* header section */
+
 header {
   display: flex;
+  height: 125px;
+  background-color: rgb(255,125,118);
 }
 
 nav {
-  border: red solid 3px;
-  /* display: flex; */
-  width: 70%;
-  background-color:black;
-  color: #fff;
+
+  width: 50%;
+  color: rgb(66,133,216);
 }
 
 ul {
 display: flex;
 list-style: none;
-justify-content: space-between;
+justify-content: space-around;
+padding-left: 0px;
 }
 
+li {
+  display: flex;
+  align-items: center;
+  font-size: 14pt;
+  margin-bottom: 5px;
+}
 
-main {
-  height: 100vh;
-  border: solid black 3px;
-  /* flex-direction: row;
-  justify-content: space-evenly; */
-  /* margin: .5 rem; */
+li[id] {
+  color: #def5f9;
 }
 
 .menu-bar {
   display: flex;
-  /* flex-direction: column; */
   justify-content: flex-start;
   align-items: flex-end;
   width: 80%;
-  /* height:; */
-  border: solid red 3px;
 }
 
 .admin-menu {
+  display: flex;
+  flex-direction:column;
   width: 20%;
-  border: solid purple 10px;
+  align-items: center;
 }
 
-h2 {
-  color: red;
-  font-size: 2rem;
-  padding: 0 0 0 1rem;
-  margin: 2rem 0 1rem 0;
+.admin-menu-text{
+display: flex;
+align-items: center;
+margin-left: 60px;
+
+}
+
+.user-login-menu {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.icon {
+height: 20px;
+width: 20px;
+}
+
+nav .icon {
+  margin-top: 6px;
+  margin-right: 8px;
+}
+
+.user-icon{
+  height: 25px;
+  width: 25px;
+  margin-top: 6px;
+  margin-right: 8px;
+}
+
+
+.drop-icon {
+  height: 15px;
+  width: 15px;
+  margin-right:25px;
+  margin-left: 15px;
+}
+
+/* Main Section */
+
+main {
+  height: 100%;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  /* margin: */
 }
 
 /* Cards */
 
 .card {
   display: flex;
-  border: solid grey 3px;
   width: 330px;
   height: 400px;
-  margin-right: 3%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
   flex-direction: column;
+  box-shadow:  5px 5px 10px #b3b3b3,
+             -5px -5px 10px #ffffff;
 }
 
 .card-header {
-  border: black solid 3px;
+  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-image: url("/Users/justin/Turing/mod2/projects/static-comp-challenge/assets/D8EFC4FD-E753-4003-AA08-CFE5B7962A63_1_105_c.jpeg");
+  background-size: 330px ;
 }
 
-.card-header {
-
+.photo {
+  background-size: contain;
 }
 
-h3,
-h4 {
-  flex
+.arrow-icon {
+  height: 75px;
+  width: 75px;
 }
 
+.card-header-text {
+  color: white;
+  text-align: center;
+}
 
-/* @media screen and (min-width: 480px) {
+.card-main {
+  display: flex;
+  background-color: ghostWhite;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #def5f9;
+}
+
+.card-div {
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: flex-start;
+}
+
+.card-div-grey {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: flex-start;
+  overflow-wrap:break-word;
+  hyphens:auto;
+  background: lightgray;
+}
+
+/* 
+@media screen and (max-width: 480px) {
   body {
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
 
   nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
   }
 
   main {
 
   }
-}
+} */
 
-@media screen and (min-width: 800px) {
+
+
+/* @media screen and (min-width: 800px) {
   body {
     display: grid;
   }
