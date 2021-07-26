@@ -1,14 +1,15 @@
 * {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* BODY & <h> Tag Styling */
 
 body {
-  background-color: rgb(133,216,223)
+  background-color: rgb(133,216,223);
   font-family: Arial;
   background: var(#222222);
-  margin: 0;
   color: var(#222222);
 }
 
@@ -30,7 +31,7 @@ h5 {
 }
 
 h3[id] {
-  color: rgb(66,133,216)
+  color: rgb(66,133,216);
 }
 
 h5[id] {
@@ -156,17 +157,12 @@ main {
 }
 
 .card-div {
-  margin-left: 10px;
-  margin-right: 10px;
-  justify-content: flex-start;
+  margin: 0 10px 0 10px;
 }
 
 .card-div-grey {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  justify-content: flex-start;
+  padding: 10px 0 10px 0;
+  margin: 0 10px 0 10px;
   overflow-wrap:break-word;
   hyphens:auto;
   background: lightgray;
@@ -177,7 +173,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-image: url("/Users/justin/Turing/mod2/projects/static-comp-challenge/assets/D8EFC4FD-E753-4003-AA08-CFE5B7962A63_1_105_c.jpeg");
+  background-image: url("./assets/D8EFC4FD-E753-4003-AA08-CFE5B7962A63_1_105_c.jpeg");
   background-size: 330px ;
 }
 
@@ -205,7 +201,7 @@ NEED TO CREATE MEDIA QUERIES FOR DIFFERENT SCREEN SIZES
 
 ***************************************************************/
 
-/* 
+/*
 @media screen and (max-width: 480px) {
   body {
     display: flex;
