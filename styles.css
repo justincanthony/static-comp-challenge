@@ -48,7 +48,6 @@ header {
 }
 
 nav {
-
   width: 50%;
   color: rgb(66,133,216);
 }
@@ -174,7 +173,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   background-image: url("./assets/D8EFC4FD-E753-4003-AA08-CFE5B7962A63_1_105_c.jpeg");
-  background-size: 330px ;
+  background-size: 330px;
 }
 
 .card-header-text {
@@ -201,27 +200,48 @@ NEED TO CREATE MEDIA QUERIES FOR DIFFERENT SCREEN SIZES
 
 ***************************************************************/
 
-/*
+
 @media screen and (max-width: 480px) {
+
   body {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    justify-items: center;
   }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-
   header {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 30vh;
+    width: 100%;
+    overflow: auto;
   }
 
-  main {
-
+  .admin-menu {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
   }
-} */
+
+  .admin-menu-text{
+    display: flex;
+    align-items: center;
+    }
+
+  .logo {
+    font-family: 'Faster One', cursive;
+    font-size: 30pt;
+    margin: 0;
+  }
+
+  li {
+    width: 100%;
+  }
+}
 
 /* @media screen and (min-width: 800px) {
   body {
