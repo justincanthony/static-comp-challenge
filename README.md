@@ -47,7 +47,7 @@ https://github.com/justincanthony -->
     <a href=https://github.com/justincanthony/static-comp-challenge><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://"https://justincanthony.github.io/static-comp-challenge/">View Demo</a>
+    <a href="https://justincanthony.github.io/static-comp-challenge/">View Demo</a>
     ·
     <a href="https://github.com/justincanthony/static-comp-challenge/issues">Report Bug</a>
     ·
